@@ -210,7 +210,7 @@ Normally, a loop exits when its condition becomes falsy.
 
 But we can force the exit at any time using the special `break` directive.
 
-For example, the loop below asks the user for a series of numbers, "breaking" when no number is entered:
+For example, the loop below asks the user for a series of numbers, "breaking" when "0" or no number is entered:
 
 ```js run
 let sum = 0;
